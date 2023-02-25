@@ -8,12 +8,19 @@
 
 // let c = 8;
 
-function testar(numA, numB, numC){
-    let resultado = numA + numB;
+// function testar(numA, numB, numC){
+//     let resultado = numA + numB;
 
-    if (resultado < numC){
-        return console.log("O resultado de A + B é menor que C")
-    } else {
-        return console.log("O resultado de A + B é maior ou igual a C")
-    }
+//     if (resultado < numC){
+//         return console.log("O resultado de A + B é menor que C")
+//      } else {
+//         return console.log("O resultado de A + B é maior ou igual a C")
+//       }   
+//    
+// }
+
+let soma = a + b;
+
+if (soma < c){
+    alert("O resultado de A + B é menor que C")
 }
