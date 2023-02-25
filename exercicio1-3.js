@@ -4,11 +4,11 @@
 
 // os numeros impares
 
-// os multiplos por 3 (divindindo por 3 da 0)
+// os multiplos por 3 (divindindo por 3 da)
 
 let soma = 0;
 
-for (let i = 0; i < 500; i++){ //pq i tem que ser < e nao <= 500?
+for (let i = 0; i < 500; i++){ // para ler do 1 ao 500 ; pq i tem que ser < e nao <= 500?
     if((i % 2) != 0){ //os numeros impares
         if((i % 3) == 0) // os numeros multiplos de 3
         soma = soma + i;
